@@ -13,4 +13,5 @@ A repo with the various methods I tested to create several pieces of functionali
 | Flask ezcv            | [ezcv,](https://github.com/Descent098/ezcv) [Flask](https://flask.palletsprojects.com/en/2.1.x/) | Content reloading, http server                 |
 | Watchdog Generation   | [ezcv](https://github.com/Descent098/ezcv), [watchdog](https://github.com/gorakhargosh/watchdog/) | Content reloading                              |
 | WSGI Native Testing   | [ezcv](https://github.com/Descent098/ezcv), [werkzeug](https://werkzeug.palletsprojects.com/en/2.1.x/) | http server                                    |
+| Socket Testing        | [ezcv](https://github.com/Descent098/ezcv)                   | http server                                    |
 
