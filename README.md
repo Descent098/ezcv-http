@@ -5,7 +5,9 @@ A repo with the various methods I tested to create several pieces of functionali
 2. An http server into [ezcv](https://github.com/Descent098/ezcv)
 3. Live reloading
 
+All of these folders implement some, or all of these peices of functionality. They're documented here for posterity as well as a resource for learning various methods of implementing this functionality.
 
+## Project breakdown
 
 | Project name          | Required libraries                                           | Functionality implemented                      |
 | --------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
