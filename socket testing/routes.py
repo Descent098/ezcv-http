@@ -26,7 +26,14 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM)  as server_socket: # AF_I
     server_socket.listen(1) # Listen for incoming connections
     print('Listening on port %s ...' % SERVER_PORT)
 
-    for index in range(100000):
+    number_of_requests = 100 # Number of requests/responses to keep socket open for with these files about 6.5 site loads
+
+    for index in range(number_of_requests):
+        print(f"Request/response # : {index}")
+        if index == number_of_requests//4:
+            print("Quarter of the way through")
+        elif index == number_of_requests//2:
+            print("Half of the way through")
         # Wait for client connections
         client_connection, client_address = server_socket.accept()
 
